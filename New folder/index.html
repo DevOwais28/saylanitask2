@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('./wallpaperflare.com_wallpaper.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+ 
+        ul{
+            text-align: right;
+        }
+        li{
+            display: inline-block;
+            color: white;
+            padding:10px;
+            font-size: larger;   
+        }
+        .login{
+            width:80px;
+            height:40px;
+            border-radius: 10px;
+        }
+        li:hover{
+            background-color: rgb(0, 0, 0);
+            border-radius: 10px;
+        }
+        svg{
+            position: absolute;
+            top:2%
+        }
+        form{
+            border-radius: 20px;
+            backdrop-filter: blur(7px);
+            width:25%;
+            height:60vh;
+            margin: 0 auto;
+            color:white;
+            text-align: center;   
+            padding-top: 2%;
+        }
+        .inputs input{
+            width:60%;
+            height:3vh;
+            margin: 0 auto;
+            margin-top: 8%;
+            background-color:transparent;
+            border: none;
+            border-bottom:2px solid white;
+            outline: none;
+        }
+
+        input[type="checkbox"]{
+            margin:5% 0 0 5%;
+            width:10%;
+            height:3vh;              
+        }
+        .register{
+            margin-top: 6%;
+            width:60%;
+            height:5vh;
+            border-radius: 10px;
+            background-color: rgb(3, 6, 49);
+            border: none;
+            color: bisque;
+        }
+        .inputs img{
+          position: absolute;
+          right: 20%;
+          margin-top: 10px;                   
+        }
+    </style>
+</head>
+<body>
+<nav> 
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>;
+        <li><button class="login">login</button></li>
+    </ul>
+    <svg width="60px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M512 960c-92.8 0-160-200-160-448S419.2 64 512 64s160 200 160 448-67.2 448-160 448z m0-32c65.6 0 128-185.6 128-416S577.6 96 512 96s-128 185.6-128 416 62.4 416 128 416z" fill="#050D42"></path><path d="M124.8 736c-48-80 92.8-238.4 307.2-363.2S852.8 208 899.2 288 806.4 526.4 592 651.2 171.2 816 124.8 736z m27.2-16c33.6 57.6 225.6 17.6 424-97.6S905.6 361.6 872 304 646.4 286.4 448 401.6 118.4 662.4 152 720z" fill="#050D42"></path><path d="M899.2 736c-46.4 80-254.4 38.4-467.2-84.8S76.8 368 124.8 288s254.4-38.4 467.2 84.8S947.2 656 899.2 736z m-27.2-16c33.6-57.6-97.6-203.2-296-318.4S184 246.4 152 304 249.6 507.2 448 622.4s392 155.2 424 97.6z" fill="#050D42"></path><path d="M512 592c-44.8 0-80-35.2-80-80s35.2-80 80-80 80 35.2 80 80-35.2 80-80 80zM272 312c-27.2 0-48-20.8-48-48s20.8-48 48-48 48 20.8 48 48-20.8 48-48 48zM416 880c-27.2 0-48-20.8-48-48s20.8-48 48-48 48 20.8 48 48-20.8 48-48 48z m448-432c-27.2 0-48-20.8-48-48s20.8-48 48-48 48 20.8 48 48-20.8 48-48 48z" fill="#2F4BFF"></path></g></svg> 
+</nav>
+<main>
+    <form>  
+        <h1>Registration</h1> 
+        <div class="inputs">
+        <input type="text" name="" id="" placeholder="Name">     
+        <img width="8%"  height="5%"  height="50" src="https://img.icons8.com/fluency-systems-regular/50/name.png" alt="name"/>
+        <input type="email" name="" id="" placeholder="Email">
+        <img width="8%"  src="https://img.icons8.com/windows/32/new-post.png" alt="new-post"/>
+        <input type="password" placeholder="Password"> 
+        <img width="8%" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIKdmlld0JveD0iMCAwIDE3MiAxNzIiCnN0eWxlPSIgZmlsbDojMjZlMDdmOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMTcydi0xNzJoMTcydjE3MnoiIGZpbGw9Im5vbmUiPjwvcGF0aD48ZyBmaWxsPSIjMWZiMTQxIj48cGF0aCBkPSJNMjEuNSwyMS41djEyOWg2NC41di0zMi4yNXYtNjQuNXYtMzIuMjV6TTg2LDUzLjc1YzAsMTcuNzgwNSAxNC40Njk1LDMyLjI1IDMyLjI1LDMyLjI1YzE3Ljc4MDUsMCAzMi4yNSwtMTQuNDY5NSAzMi4yNSwtMzIuMjVjMCwtMTcuNzgwNSAtMTQuNDY5NSwtMzIuMjUgLTMyLjI1LC0zMi4yNWMtMTcuNzgwNSwwIC0zMi4yNSwxNC40Njk1IC0zMi4yNSwzMi4yNXpNMTE4LjI1LDg2Yy0xNy43ODA1LDAgLTMyLjI1LDE0LjQ2OTUgLTMyLjI1LDMyLjI1YzAsMTcuNzgwNSAxNC40Njk1LDMyLjI1IDMyLjI1LDMyLjI1YzE3Ljc4MDUsMCAzMi4yNSwtMTQuNDY5NSAzMi4yNSwtMzIuMjVjMCwtMTcuNzgwNSAtMTQuNDY5NSwtMzIuMjUgLTMyLjI1LC0zMi4yNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="/>
+    </div>    
+    <input type="checkbox" name="" id=""><span>I agree to all terms and condtions.</span>
+    <button class="register">Register</button> 
+    <p>already have an account <a href="">login</a></p>   
+</form>
+
+</main>
+</body>
+</html>
